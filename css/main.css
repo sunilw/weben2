@@ -508,27 +508,37 @@ textarea[contenteditable] {
   clear: both;
 }
 
-/* Sunil's additions */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003143}}
+/* ========================================================================== */
+/*             Sunil's additions                                              */
+/* ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003154}}
 h1, h2, h3, h4, h5, h6 {
   font-family: haymakerregular;
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003158}}
+body p, li, a {
+  font-family: Cabin;
+  font-weight: 400;
+  font-size: 18px;
+  color: #18141d;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003164}}
 header {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003167}}
 header#page-header {
   padding-top: 54px;
   padding-bottom: 54px;
   margin-bottom: 54px;
   text-align: center;
-  background-color: #4c4357;
+  background-color: #4b4257;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003173}}
 header#page-header h1 {
   color: white;
   font-size: 2.4em;
