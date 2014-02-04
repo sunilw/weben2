@@ -526,11 +526,21 @@ body p, li, a {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003164}}
+a {
+  color: #6e6c53;
+  transition: colour 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003167}}
+a:hover {
+  color: #4f4d39;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003171}}
 header {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003174}}
 header#page-header {
   padding-top: 54px;
   padding-bottom: 54px;
@@ -538,10 +548,19 @@ header#page-header {
   text-align: center;
   background-color: #4b4257;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003180}}
 header#page-header h1 {
   color: white;
   font-size: 2.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/weben2\/sass\/main\.sass}line{font-family:\00003185}}
+.content-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  max-width: 1200px;
+  margin-bottom: 48px;
 }
 
 /* ==========================================================================
